@@ -1,8 +1,12 @@
 ```mermaid
-graph TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
+---
+config:
+    look: handDrawn
+---
+graph LR
+    A1[ShowCart] -->|Inventory| B1(Calculate)
+    B1 --> C1{Persist}
+    C1 -->|distribute| D1[Baz]
+    C1 -->|distribute| E1[Bar]
+    C1 -->|distribute| F1[Foo]
 ```
