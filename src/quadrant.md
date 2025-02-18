@@ -1,6 +1,19 @@
 ```mermaid
-%%{init: {"quadrantChart": {"chartWidth": 400, "chartHeight": 400}, "themeVariables": {"quadrant1TextFill": "#0000ff,"
- "quadrant1Fill": "#ff0000"} }}%%
+%%{init: {
+    "quadrantChart": {
+        "chartWidth": 400, 
+        "chartHeight": 400}, 
+    "themeVariables": {
+        "quadrant1TextFill": "#00ff00",
+        
+        "quadrant2TextFill": "#ff0000",
+        
+        "quadrant3TextFill": "#0000ff",
+        
+        "quadrant4TextFill": "#ff0000",
+        } 
+    }
+}%%
 quadrantChart
   x-axis Relativer Marktanteil  ger. --> hoch
   y-axis Marktwachstum ger. --> hoch 
