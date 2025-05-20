@@ -5,28 +5,32 @@ Experiments with Mermaid (diagrams and charts in Markdown)
 
 ## Basic usage
 <pre><code>
-```mermaid
+stateDiagram-v2
+  SC --> (X,A): nav(X,A)
+  SC --> (X,B): nav(X,B)
+  SC --> (Y,B): nav(Y,B)
+  SC --> (Z,C): nav(Z,C)
 
-TYPE 
-    command 1
-    ....
-    command foo
+  (X,A) --> (X,B): nav(_,B)
+  (X,A) --> !403: nav(_,C)
+  (X,A) --> !403: nav(Y,_)
+  (X,A) --> !403: nav(Z,_)
 
-```
-</code></pre>
+  (X,B) --> (X,A): nav(_,A)
+  (X,B) --> !403: nav(_,C)
+  (X,B) --> (Y,B): nav(Y,_)
+  (X,B) --> !403: nav(Z,_)
 
+  (Y,B) --> !403: nav(_,A)
+  (Y,B) --> !403: nav(_,C)
+  (Y,B) --> (X,B): nav(X,_)
+  (Y,B) --> !403: nav(Z,_)
 
+  (Z,C) --> !403: nav(_,A)
+  (Z,C) --> !403: nav(_,B)
+  (Z,C) --> !403: nav(X,_)
+  (Z,C) --> !403: nav(Y,_)
 
-## Basic usage
-<pre><code>
-```mermaid
-
-TYPE 
-    command 1
-    ....
-    command foo
-
-```
 </code></pre>
 
 ```mermaid
