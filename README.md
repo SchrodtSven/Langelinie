@@ -2,6 +2,16 @@
 
 Experiments with Mermaid (diagrams and charts in Markdown)
 
+## Foo
+
+```mermaid
+stateDiagram
+    [*] --> state1
+    state1 --> state2
+    state1 --> [*]
+    state2 --> [*]
+    
+```
 
 ## Basic usage
 <pre><code>
@@ -88,11 +98,14 @@ TYPE
 
 ## External resources 
 
-- https://gist.github.com/vtsoup/f1f79d19d6f8e58396bde8847c09a62e 
-- https://gist.github.com/ChristopherA/bffddfdf7b1502215e44cec9fb766dfd
-- https://gist.github.com/balanza/39bd68f3978ae7dd6a486321b2251ce7 
-- https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/
-- https://markdownmonster.west-wind.com/docs/Markdown-Rendering-Extensions/Rendering-Mermaid-Charts.html
+- [x] https://gist.github.com/vtsoup/f1f79d19d6f8e58396bde8847c09a62e 
+- [x] https://gist.github.com/ChristopherA/bffddfdf7b1502215e44cec9fb766dfd
+- [x] https://gist.github.com/balanza/39bd68f3978ae7dd6a486321b2251ce7 
+- [x] https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/
+- [x] https://markdownmonster.west-wind.com/docs/Markdown-Rendering-Extensions/Rendering-Mermaid-Charts.html
+- [ ] https://www.freecodecamp.org/news/diagrams-as-code-with-mermaid-github-and-vs-code/
+- [ ] https://docs.cohere.com/v2/docs/create-a-markdown-table-from-raw-data
+- [ ] 
 
 # Admonitions
  
