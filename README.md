@@ -94,6 +94,41 @@ TYPE
 - https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/
 - https://markdownmonster.west-wind.com/docs/Markdown-Rendering-Extensions/Rendering-Mermaid-Charts.html
 
+# Admonitions
+ 
+ :::note
+ 
+ This is an interactive **note** with a [link home](https://markdownmonster.west-wind.com)
+ 
+ :::
+ 
+ 
+ :::tip
+ 
+ This is a **tip**. Contained content can contain it's own markdown content
+ 
+ :::
+ 
+ :::info
+ 
+ Some simple information.
+ 
+ This has multiple paragraphs of text.
+ 
+ :::
+ 
+ 
+ :::warning
+ 
+ Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+ 
+ :::
+ 
+ :::danger
+ 
+ This is Dangerous!
+ 
+ :::
 ^
 [^bignote]: 
 <i>Langelinie</i> is a pier, promenade and park in central Copenhagen, [home of the the litte mermaid](https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue))
