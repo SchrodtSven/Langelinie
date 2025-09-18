@@ -10,3 +10,9 @@ quadrantChart
   quadrant-3 Poor Dogs
   quadrant-4 Cash Cows
   ```
+
+
+    quadrant-1 Stars ✬
+    quadrant-2 Question Marks
+    quadrant-3 Poor Dogs 🐶
+    quadrant-4 Cash Cows 🐮
