@@ -107,41 +107,7 @@ TYPE
 - [ ] https://docs.cohere.com/v2/docs/create-a-markdown-table-from-raw-data
 - [ ] 
 
-# Admonitions
- 
-> [!WARNING!] Dies ist eine Warnung
- 
- This is an interactive **note** with a [link home](https://markdownmonster.west-wind.com)
- 
- :::
- 
- 
- :::tip
- 
- This is a **tip**. Contained content can contain it's own markdown content
- 
- :::
- 
- :::info
- 
- Some simple information.
- 
- This has multiple paragraphs of text.
- 
- :::
- 
- 
- :::warning
- 
- Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
- 
- :::
- 
- :::danger
- 
- This is Dangerous!
- 
- :::
+
 ^
 [^bignote]: 
 <i>Langelinie</i> (Pier, Promenade und Park in Copenhagen, [Heimat der kleinen Meerjungfrau](https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue))
