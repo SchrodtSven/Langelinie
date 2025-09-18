@@ -2,7 +2,7 @@
 
 # Admonitions
  
-> [!WARNING] Dies ist eine Warnung
+> [!WARN] Dies ist eine Warnung
  
  This is an interactive **note** with a [link home](https://markdownmonster.west-wind.com)
  
