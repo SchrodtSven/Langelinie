@@ -1,4 +1,4 @@
-# Portfolio-Matrix nach BCG
+# Portfolio-Matrix nach [BCG](https://www.bcg.com/)
 
 ```mermaid
 
@@ -11,8 +11,8 @@ quadrantChart
   quadrant-4 Cash Cows
   ```
 
-
-    quadrant-1 Stars ✬
-    quadrant-2 Question Marks
-    quadrant-3 Poor Dogs 🐶
-    quadrant-4 Cash Cows 🐮
+Legende:
+  Stars ✬
+  Question Marks ❓
+  Poor Dogs 🐶
+  Cash Cows 🐮
