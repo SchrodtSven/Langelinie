@@ -1,8 +1,6 @@
 # Mementi
 
-Hinweise 
-
-# Admonitions
+Folgende Hinweise können in Markdown notiert werden 
  
 > [!WARNING] 
 > Eine Warnung
@@ -18,3 +16,6 @@ Hinweise
 
 > [!CAUTION]
 > Gefahrenhinweis
+
+> [!FOO]
+> Nix
