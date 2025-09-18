@@ -3,7 +3,7 @@
 
 ## Matrix
 
-## Organization <-> Product
+### Organization <-> Product
 
 ||A|B|C|
 |-|-|-|-|
@@ -15,7 +15,7 @@
 
 ```mermaid
 ---
-title: IT Process items
+title: IT Prozess
 ---
 flowchart RL
     S@{ shape: bolt, label: "Communication link" }
