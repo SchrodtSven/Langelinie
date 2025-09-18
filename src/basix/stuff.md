@@ -1,4 +1,7 @@
-# Mixed Stuff
+# Mermaid examples
+
+
+## Matrix
 
 ## Organization <-> Product
 
@@ -9,7 +12,7 @@
 |Z|||•|
 
 
-## Mermaid examples
+
 ```mermaid
 ---
 title: IT Process items

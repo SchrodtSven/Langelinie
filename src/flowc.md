@@ -1,25 +1,26 @@
 ```mermaid
+---
+title: Dashboard
+---
  flowchart LR;
-      A[CI MULTI CHAPTCHA]-->B{Select captcha service by developer?};
+      A[Entscheidungen zum Start]-->B{Sprache?};
       classDef green color:#022e1f,fill:#00f500;
       classDef red color:#022e1f,fill:#f11111;
       classDef white color:#022e1f,fill:#fff;
       classDef black color:#fff,fill:#000;
-      B--YES-->C[How to use?]:::green;
+      B--Python-->C[Welche Bilbliothek?]:::green;  
+      C-->U[Seaborn]:::green;
+     
       
-      C-->U[I choose recaptcha.]:::green;
-      U--Views-->Q["echo CIMC_JS('recaptcha');\n echo CIMC_HTML(['captcha_name'=>'recaptcha']);"]:::green;
-      U--Controller-->W["CIMC_RULE('recaptcha');"]:::green;
+      U--Controller-->Views["Rendering"]:::green;
       
-      C-->I[I choose arcaptcha.]:::white;
-      I--Views-->O["echo CIMC_JS('arcaptcha');\n echo CIMC_HTML(['captcha_name'=>'arcaptcha']);"]:::white;
-      I--Controller-->P["CIMC_RULE('arcaptcha');"]:::white;
+      C-->I[Matplotlib]:::white;
+      I--Views-->O["Foo"]:::white;
+      I--Controller-->P["foo-bar()"]:::white;
       
-      C-->X[I choose bibot.]:::red;
-      X--Views-->V["echo CIMC_JS('bibot');\n echo CIMC_HTML(['captcha_name'=>'bibot']);"]:::red;
-      X--Controller-->N["CIMC_RULE('bibot');"]:::red;
+      C-->X[Plotly]:::red;
+      X--Views-->V["Bar"]:::red;
+      X--Controller-->N["bar-foo()"]:::red;
       
-      B--NO-->D[How to use?]:::black;
-      D---Views:::black-->F["echo CIMC_JS('randomcaptcha');\n echo CIMC_HTML(['captcha_name'=>'randomcaptcha']);"]:::black; 
-      D---Controller:::black-->T["CIMC_RULE('archaptcha,recaptcha,bibot');"]:::black;
+  
 ```

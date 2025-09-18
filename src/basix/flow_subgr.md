@@ -3,16 +3,19 @@
 ```mermaid
 ---
 title: Subgraph example I
+config:
+  look: handDrawn
+  theme: neutral
 ---
 flowchart TB
     c1-->a2
-    subgraph one
+    subgraph un
     a1-->a2
     end
-    subgraph two
+    subgraph deux
     b1-->b2
     end
-    subgraph three
+    subgraph trois
     c1-->c2
     end
 
