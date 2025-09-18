@@ -1,6 +1,6 @@
 # Langelinie [^bignote] 
 
-Experiments with Mermaid (diagrams and charts in Markdown)
+Spielereien mit Markdown insbesondere Mermaid (Diagramme, Charts etc.)
 
 ## Foo
 
@@ -109,7 +109,7 @@ TYPE
 
 # Admonitions
  
- :::note
+> [!WARNING!] Dies ist eine Warnung
  
  This is an interactive **note** with a [link home](https://markdownmonster.west-wind.com)
  
@@ -144,6 +144,6 @@ TYPE
  :::
 ^
 [^bignote]: 
-<i>Langelinie</i> is a pier, promenade and park in central Copenhagen, [home of the the litte mermaid](https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue))
+<i>Langelinie</i> (Pier, Promenade und Park in Copenhagen, [Heimat der kleinen Meerjungfrau](https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue))
 
 [Coord: 14/55.68155/12.60158](https://www.openstreetmap.org/?mlat=55.692861&mlon=12.599278&zoom=15#map=14/55.68155/12.60158)
