@@ -122,8 +122,7 @@ TYPE
  Txt Lorem Ipsum
 
 >[!WARNING]
- 
- Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+> Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
  
 > [!CAUTION]
 > Pass uff, Atze!
