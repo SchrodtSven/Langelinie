@@ -116,10 +116,10 @@ TYPE
 >This is a **tip**. Contained content can contain it's own markdown content
  
 >[!IMPORTANT]
- Some very information.
+> Some very information.
  
- This has multiple paragraphs of text.
- Txt Lorem Ipsum
+> This has multiple paragraphs of text.
+> Txt Lorem Ipsum
 
 >[!WARNING]
 > Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
