@@ -109,12 +109,13 @@ TYPE
 
 # Admonitions
  
->[!note]
+>[!NOTE]
 >This is an interactive **note** with a [link home](https://markdownmonster.west-wind.com)
+
 >[!TIP]
 >This is a **tip**. Contained content can contain it's own markdown content
  
- >[!info]
+ >[!INFO]
  Some simple information.
  
  This has multiple paragraphs of text.
