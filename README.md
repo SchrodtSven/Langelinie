@@ -115,16 +115,18 @@ TYPE
 >[!TIP]
 >This is a **tip**. Contained content can contain it's own markdown content
  
->[!INFO]
- Some simple information.
+>[!IMPORTANT]
+ Some very information.
  
  This has multiple paragraphs of text.
  Txt Lorem Ipsum
 
->[!WARN]
+>[!WARNING]
  
  Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
  
+> [!CAUTION]
+> Pass uff, Atze!
 ^
 [^bignote]: 
 <i>Langelinie</i> is a pier, promenade and park in central Copenhagen, [home of the the litte mermaid](https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue))
