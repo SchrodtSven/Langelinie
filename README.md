@@ -117,8 +117,6 @@ TYPE
  
 >[!IMPORTANT]
 > Some very information.
-> This has multiple paragraphs of text.
-> Txt Lorem Ipsum
 
 >[!WARNING]
 > Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
